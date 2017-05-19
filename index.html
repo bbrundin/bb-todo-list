@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sample App</title>
+<style>
+      @import url('https://fonts.googleapis.com/css?family=Anton');
+      input[type="text"] {
+        padding: 10px;
+        border: solid 5px #c9c9c9;
+        -webkit-transition: border 0.3s;
+        -moz-transition: border 0.3s;
+        -o-transition: border 0.3s;
+        transition: border 0.3s;
+      }
+      input[type="text"]:focus, input[type="text"].focus {
+        border: solid 5px #969696;
+      }
+      body{
+        font-family: 'Anton', sans-serif;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      button{
+        padding: 2px;
+        margin-left: 10px;
+        background-color: white;
+        border: solid 5px #388571;
+        font-family: 'Anton', sans-serif;
+        font-size: 17px;
+        cursor: pointer;
+      }
+      .container{
+        border: dashed #afafaf;
+        display: block;
+        padding: 30px;
+        margin: 0 auto;
+        width: 490px;
+      }
+      .removeButton{
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 1.1;
+        margin-left: 20px;
+        padding: 0px 5px 1.5px 5px;
+      }
+      .listItem{
+        padding: 10px 10px 10px 0;
+      }
+      .listItemText{
+        display: block;
+        float: left;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id='root'>
+    </div>
+    <script src="/static/bundle.js"></script>
+  </body>
+</html>
